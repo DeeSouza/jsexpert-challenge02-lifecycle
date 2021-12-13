@@ -9,8 +9,7 @@ Baseando-se nos testes automatizados já criados neste repo - similares aos feit
 ## Funcionalidades
 
 ### Requisitos
-1. Implemente os métodos marcados com um `//@TODO: comment`  em cada uma das respectivas services,
-na ordem que preferir:
+1. Implemente os métodos marcados com um `//@TODO: comment`  em cada uma das respectivas services, na ordem que preferir:
 
 * [ ] _services/StatementsService_
 * [ ] _services/WeirdMathService_
@@ -31,7 +30,7 @@ Você saberá que o desafio está concluído quando executar o comando `npm run 
 
 ### Extras
 
-* [ ] Desafio opcional: Note que no arquivo `test/unit/service/ReferencesService.test`, existe um teste na linha 44 com um `it.skip()`. Esse é um desafio opcional, e caso queira implementá-lo é só remover o `.skip` e implementar a respectiva função que está sendo testada na ReferencesService
+* [X] Desafio opcional: Note que no arquivo `test/unit/service/ReferencesService.test`, existe um teste na linha 44 com um `it.skip()`. Esse é um desafio opcional, e caso queira implementá-lo é só remover o `.skip` e implementar a respectiva função que está sendo testada na ReferencesService
 
 ## Dicas
 
@@ -70,16 +69,16 @@ project
 ### Checklist features
 
 - ObjectMethodsService
-  * [ ] Deve entender Coerção de tipos e Objects Lifecycle e implementar soluções usando `valueOf`, `toString` e `[Symbol.toPrimitive]`.
+  * [X] Deve entender Coerção de tipos e Objects Lifecycle e implementar soluções usando `valueOf`, `toString` e `[Symbol.toPrimitive]`.
 
 - ReferencesService
-  * [ ] Deve entender tipos de referência e Mutability vs Immutability, e implementar soluções copiando ou não referências de objetos.
+  * [X] Deve entender tipos de referência e Mutability vs Immutability, e implementar soluções copiando ou não referências de objetos.
 
 - StatementsService
-  * [ ] Deve entender o uso de conditional statements no Javascript e seus respectivos retornos em diferentes cenários.
+  * [X] Deve entender o uso de conditional statements no Javascript e seus respectivos retornos em diferentes cenários.
 
 - WeirdMathService
-  * [ ] Deve entender o fluxo de vida do Javascript e as coerções implícitas que ocorrem em expressões matemáticas.
+  * [X] Deve entender o fluxo de vida do Javascript e as coerções implícitas que ocorrem em expressões matemáticas.
 
 ## Submissão
 
