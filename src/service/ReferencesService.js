@@ -1,12 +1,12 @@
 class ReferencesService {
   getCounterCopyingReferences(object) {
-    const copiedObject = object;
+    const copiedObject = Object.assign(object);
 
     return copiedObject;
   }
 
   getCounterWithoutCopyingReferences(object) {
-    const copiedObject = Object.assign({}, object);
+    const copiedObject = Object.create(object);
 
     return copiedObject;
   }
